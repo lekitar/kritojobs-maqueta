@@ -14,7 +14,7 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="menu-principal-collapse">
       <ul class="nav navbar-nav navbar-left menu-hover-lines">
-        <li class="buscador"> <input type="text" class="form-control buscador-principal" placeholder="Busca proyectos"></li>
+        <li class="buscador hidden-sm hidden-xs"> <input type="text" class="form-control buscador-principal" placeholder="Busca proyectos"></li>
           
         <li class="activo"><a href="#">Kriptojobs <span class="sr-only">(current)</span></a></li>
         
@@ -37,7 +37,7 @@
      <ul class="nav navbar-nav navbar-right">
         <li>  <a href="#"> <i class="fas fa-pencil-alt"></i> Registrarse</a></li>
 
-        <li class="separador-left " style="margin-top: 5px;" >  <button  class="btn btn-default azul texto-blanco"> Iniciar Sesión </button></li>
+        <li class="separador-left " style="margin-top: 5px;" >  <button  class="btn btn-default verde texto-blanco"> Iniciar Sesión </button></li>
       </ul>
 
     </div><!-- /.navbar-collapse -->
