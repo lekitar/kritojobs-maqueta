@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Luxury </title>
+	<title> KriptoJobs </title>
 </head>
 <link rel="stylesheet" href="css/main.css">
 

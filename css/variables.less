@@ -1,0 +1,89 @@
+/* Colores */ 
+
+@azul-principal:#003366;
+@gris-principal:#999999;
+@gris-oscuro-principal:#242424;
+@verde-azul-principal:#009999;
+@verder-principal:#009999;
+@morado-principal: #9999cc;
+@blanco:#fff;
+@negro:#000;
+
+.azul{
+	background: @azul-principal;
+}
+.texto-azul{
+	color: @azul-principal;
+}
+
+.gris{
+	background: gris-principal;
+}
+.texto-gris{
+	color: @gris-principal;
+}
+
+.gris-oscuro{
+	background: gris-oscuro-principal;
+}
+.texto-gris-oscuro{
+	color: @gris-oscuro-principal;
+}
+
+.azul-verde{
+	background: @verde-azul-principal;
+}
+.texto-azul-verde{
+	color: @verde-azul-principal;
+}
+
+.verde{
+	background: @verder-principal;
+}
+.texto-verde{
+	color: @verder-principal;
+}
+.morado{
+	background:@morado-principal;
+}
+.texto-morado{
+	color: @morado-principal;
+}
+.blanco {
+	background: @blanco;
+}
+.texto-blanco{
+	color:@blanco;
+}
+.negro {
+	background: @negro;
+}
+.texto-negro{
+	color:@negro;
+}
+
+/* Separadores */
+
+.separador-left{
+	margin-top: -10px;
+ border-left: 1px solid rgba(7, 177, 7,0.4);
+     padding: 4px 12px;
+
+}
+
+/* Ajustes de posicionamiento de contenido*/ 
+.parent {
+  position: relative;
+}
+.child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.child-vertical {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
