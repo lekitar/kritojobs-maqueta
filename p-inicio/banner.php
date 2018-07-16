@@ -4,7 +4,7 @@
 			<div class="col-md-offset-1 col-md-10  info-banner child-vertical text-center "> 
 			
 			<div class="col-md-8 col-md-offset-2">
-				<h1 class="texto-gris-oscuro">Kripto <span class="texto-verde"> jobs</span> <h1>
+				<h1 class="texto-gris-oscuro animated fadeIn">Kripto <span class="texto-verde"> jobs</span> <h1>
 					<h3 class="texto-gris-oscuro"> Es una plataforma cuyo propósito es ayudar a freelancers y empleadores a conectarse más fácil y rápidamente, trabajando a través de la Steem Blockchain.</h3>
 			 </div>
 			

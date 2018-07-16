@@ -1,3 +1,4 @@
+@import 'animated.css';
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -10290,7 +10291,15 @@ button.close {
   font-weight: 900;
 }
 /*Variables generales*/
-/* Colores */
+/* Colores 
+*
+**
+***
+****
+*****
+******
+*******
+*/
 .azul {
   background: #003366;
 }
@@ -10339,13 +10348,29 @@ button.close {
 .texto-negro {
   color: #000000;
 }
-/* Separadores */
+/* Separadores 
+*
+**
+***
+****
+*****
+******
+*******
+*/
 .separador-left {
   margin-top: -10px;
   border-left: 1px solid rgba(7, 177, 7, 0.4);
   padding: 4px 12px;
 }
-/* Ajustes de posicionamiento de contenido*/
+/* Ajustes de posicionamiento de contenido
+*
+**
+***
+****
+*****
+******
+*******
+*/
 .parent {
   position: relative;
 }
@@ -10361,7 +10386,15 @@ button.close {
   transform: translateY(-50%);
 }
 /*Desarrolladores*/
-/* Menu Principal*/
+/* Menu Principal
+*
+**
+***
+****
+*****
+******
+*******
+*/
 #menu-principal {
   background: #ffffff;
   border-radius: 0;
@@ -10439,8 +10472,15 @@ button.close {
 .menu-hover-lines .active a::after {
   width: 100%;
 }
-/* Banner Incial*/
-/* Banner Principal*/
+/* Banner Principal
+*
+**
+***
+****
+*****
+******
+*******
+*/
 #banner-inicial {
   margin-top: -20px;
   background: url('../images/banner-inicial.jpeg');
@@ -10456,3 +10496,12 @@ button.close {
   font-size: 6.5em;
   line-height: 1em;
 }
+/* Seccion Buscador
+*
+**
+***
+****
+*****
+******
+*******
+*/
