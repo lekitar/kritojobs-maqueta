@@ -37,7 +37,7 @@
      <ul class="nav navbar-nav navbar-right">
         <li>  <a href="#"> <i class="fas fa-pencil-alt"></i> Registrarse</a></li>
 
-        <li class="separador-left " style="margin-top: 5px;" >  <button  class="btn btn-default verde texto-blanco"> Iniciar Sesión </button></li>
+        <li class="separador-left " style="margin-top: 5px;" >  <button  class="btn btn-default btn-verde texto-blanco"> Iniciar Sesión </button></li>
       </ul>
 
     </div><!-- /.navbar-collapse -->

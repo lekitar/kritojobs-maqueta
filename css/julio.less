@@ -27,8 +27,8 @@
 		
 	}
 	.navbar-right, .navbar-left{
-			margin-top: 20px;
-			margin-bottom: 5px;
+		margin-top: 20px;
+		margin-bottom: 5px;
 	}
 
 	.navbar-nav{
@@ -43,7 +43,7 @@
 
 	}
 	.buscador{
-		    padding: 10px 15px;
+		padding: 10px 15px;
 	}
 }
 
@@ -59,56 +59,56 @@
 
 
 .menu-hover-lines {
-  text-align: center;
-  transition: all 0.35s ease;
+	text-align: center;
+	transition: all 0.35s ease;
 }
 
 .menu-hover-lines li a {
- 
-  color: rgba(10, 10, 10, 0.5);
-  position: relative;
- 
+
+	color: rgba(10, 10, 10, 0.5);
+	position: relative;
+
 }
 
 .menu-hover-lines li:first-child a {
-  margin-left: 0;
+	margin-left: 0;
 }
 
 .menu-hover-lines li.active > a {
-  background-color: transparent;
+	background-color: transparent;
 }
 
 .menu-hover-lines a:before,
 .menu-hover-lines a::after {
-  height: 3px;
-  position: absolute;
-  content: '';
-  transition: all 0.35s ease;
-  background-color: #1779ba;
-  width: 0;
+	height: 3px;
+	position: absolute;
+	content: '';
+	transition: all 0.35s ease;
+	background-color: #1779ba;
+	width: 0;
 }
 
 .menu-hover-lines a::before {
-  top: 0;
-  left: 0;
+	top: 0;
+	left: 0;
 }
 
 .menu-hover-lines a::after {
-  bottom: 0;
-  right: 0;
+	bottom: 0;
+	right: 0;
 }
 
 .menu-hover-lines a:hover,
 .menu-hover-lines li.active > a {
-  color: #0a0a0a;
-  transition: all 0.35s ease;
+	color: #0a0a0a;
+	transition: all 0.35s ease;
 }
 
 .menu-hover-lines a:hover::before,
 .menu-hover-lines .active a::before,
 .menu-hover-lines a:hover::after,
 .menu-hover-lines .active a::after {
-  width: 100%;
+	width: 100%;
 }
 
 
@@ -150,20 +150,88 @@
 *******
 */
 #buscador-seccion{
-    background: #35434e;
-    padding: 3em 0;
-    input, select{
-    	background: #42525f;
-    border-radius: 2px;
-    height: 48px;
-    margin-bottom: 10px;
-    border: 1px solid #4f616f;
-    width: 100%;
-    color: #99abb9;
-    &:focus{
-    	    border: 1px solid #07b107;
-    box-shadow: 0 0 7px 1px rgba(7, 177, 7, .1);
+	background: #35434e;
+	padding: 3em 0;
+	input, select{
+		background: #42525f;
+		border-radius: 2px;
+		height: 48px;
+		margin-bottom: 10px;
+		border: 1px solid #4f616f;
+		width: 100%;
+		color: #99abb9;
+		&:focus{
+			border: 1px solid #07b107;
+			box-shadow: 0 0 7px 1px rgba(7, 177, 7, .1);
 
-    }
-    }
+		}
+	}
+}
+
+/* Seccion Destacados HOME
+*
+**
+***
+****
+*****
+******
+*******
+*/
+
+#destacados{
+	background: #f4f5fa;
+}
+.job-grid{
+	background: @blanco;
+	float: left;
+	width: 100%;
+	background: #ffffff;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	border-radius: 8px;
+	.card-1;
+	padding: 0px 20px;
+	margin-top: 30px;
+	transition: 0.3s;
+	&:hover{
+		.card-3;
+	}
+
+	.job-title-sec {
+		float: left;
+		width: 100%;
+		
+		position: relative;
+		padding-bottom: 20px;
+		border-bottom: 1px solid #e8ecec;
+		h3{
+			font-size: 15px;
+			font-weight: bold;
+		}
+
+		.c-logo {
+			float: left;
+			width: 100%;
+			margin-top: 50px;
+			margin-bottom: 30px;
+
+			img{
+				max-width: 115px;
+			}
+		}
+	}
+	.job-lctn{
+		float: left;
+    width: auto;
+    font-size: 13px;
+    margin: 18px 0;
+	}
+	button{
+		margin: 5px 0;
+
+		float: right;
+	}
+
 }

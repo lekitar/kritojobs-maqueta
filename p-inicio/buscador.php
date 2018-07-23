@@ -23,7 +23,7 @@
 				<option value="5Categoria">5 Categoria</option>
 			</select></div>
 			<div class="col-md-4 form-group">
-				<button class="btn-default btn btn-lg verde texto-blanco col-md-12" type=""> Buscar Trabajo </button>
+				<button class="btn-default btn btn-lg btn-verde texto-blanco col-md-12" type=""> Buscar Trabajo </button>
 			</div>
 		</div>
 	</div>
