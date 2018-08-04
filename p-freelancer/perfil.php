@@ -9,7 +9,7 @@
 	</div>
 </section>
 
-
+<!-- Prueba-->
 <section class="container-fluid">
 	<div class="row">
 		<div class="container white-shadow card-2" id="ficha-tercnica">
